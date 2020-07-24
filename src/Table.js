@@ -1,5 +1,16 @@
 import React, {Component} from 'react'
 
+const TableHeader = () => {
+    return(
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+    )
+}
+
 class Table extends Component {
     render() {
       return (
